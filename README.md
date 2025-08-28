@@ -44,16 +44,16 @@
   </style>
 </head>
 <body>
-
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="access.html">System Access</a>
-    <a href="dashboard.html">Dashboard</a>
-    <a href="case-management.html">Case Management</a>
-    <a href="data-entry.html">Data Entry</a>
-    <a href="communication.html">Communication</a>
-    <a href="reporting.html">Reporting</a>
-    <a href="resources.html">Resources</a>
+<nav style="background-color: #0078D4; padding: 1rem; text-align: center;">
+  <a href="Welcome.html" style="color: white; margin: 0 1rem; text-decoration: none;">Home</a>
+  <a href="System.html" style="color: white; margin: 0 1rem; text-decoration: none;">System Access</a>
+  <a href="Dashboard.html" style="color: white; margin: 0 1rem; text-decoration: none;">Dashboard</a>
+  <a href="Case.html" style="color: white; margin: 0 1rem; text-decoration: none;">Case Management</a>
+  <a href="Data.html" style="color: white; margin: 0 1rem; text-decoration: none;">Data Entry</a>
+  <a href="Communcations.html" style="color: white; margin: 0 1rem; text-decoration: none;">Communication</a>
+  <a href="Reporting.html" style="color: white; margin: 0 1rem; text-decoration: none;">Reporting</a>
+  <a href="Resources.html" style="color: white; margin: 0 1rem; text-decoration: none;">Resources</a>
+</nav>
   </nav>
 
   <section>
