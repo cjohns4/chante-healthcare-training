@@ -4,59 +4,63 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>System Access – eVitals Training</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background-color: #f0f4f8;
-    }
-    nav {
-      background-color: #0078D4;
-      padding: 1rem;
-      text-align: center;
-    }
-    nav a {
-      color: white;
-      margin: 0 1rem;
-      text-decoration: none;
-      font-weight: bold;
-    }
-    section {
-      padding: 2rem;
-    }
-    .content-box {
-      background-color: white;
-      padding: 2rem;
-      border-radius: 8px;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-      margin-bottom: 2rem;
-    }
-    h2 {
-      color: #0078D4;
-    }
-  </style>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-  <nav style="background-color: #0078D4; padding: 1rem; text-align: center;">
-  <a href="Welcome.html" style="color: white; margin: 0 1rem; text-decoration: none;">Home</a>
-  <a href="System.html" style="color: white; margin: 0 1rem; text-decoration: none;">System Access</a>
-  <a href="Dashboard.html" style="color: white; margin: 0 1rem; text-decoration: none;">Dashboard</a>
-  <a href="Case.html" style="color: white; margin: 0 1rem; text-decoration: none;">Case Management</a>
-  <a href="Data.html" style="color: white; margin: 0 1rem; text-decoration: none;">Data Entry</a>
-  <a href="Communications.html" style="color: white; margin: 0 1rem; text-decoration: none;">Communication</a>
-  <a href="Reporting.html" style="color: white; margin: 0 1rem; text-decoration: none;">Reporting</a>
-  <a href="Resources.html" style="color: white; margin: 0 1rem; text-decoration: none;">Resources</a>
-</nav>
+  <nav>
+    <a href="Welcome.html">Home</a>
+    <a href="System.html">System Access</a>
+    <a href="Dashboard.html">Dashboard</a>
+    <a href="Case.html">Case Management</a>
+    <a href="Data.html">Data Entry</a>
+    <a href="Communications.html">Communication</a>
+    <a href="Reporting.html">Reporting</a>
+    <a href="Resources.html">Resources</a>
+  </nav>
 
   <section>
     <div class="content-box">
-      <h2>System Access</h2>
+      <h2>🔐 Accessing eVitals</h2>
+      <p>eVitals is a secure, role-based system used by Pennsylvania medical facilities to register and manage death cases. Access is granted through the Commonwealth’s Identity Management system and requires a <strong>Keystone ID</strong> and a <strong>Security PIN</strong>.</p>
+    </div>
+
+    <div class="content-box">
+      <h3>🧭 Login Steps</h3>
+      <ol>
+        <li>Navigate to the eVitals login URL provided by DOH.</li>
+        <li>Click <strong>Business Partner Login</strong> (for non-Commonwealth users).</li>
+        <li>Enter your Keystone ID and password.</li>
+        <li>Enter your <strong>Security PIN</strong> for two-factor authentication.</li>
+        <li>If associated with multiple facilities, select the correct one from the dropdown.</li>
+      </ol>
+      <p><em>Note: If you forget your PIN, use the “Forgot PIN?” link to reset it.</em></p>
+    </div>
+
+    <div class="content-box">
+      <h3>🏥 Facility Selection</h3>
+      <p>If you're linked to more than one facility, eVitals will prompt you to choose which unit you’re working from. This ensures that all case data is correctly attributed to the right location.</p>
       <ul>
-        <li>Log in using your Keystone ID and security PIN</li>
-        <li>Select your facility from the dropdown if associated with multiple locations</li>
-        <li>Use the Business Partner Login for non-Commonwealth users</li>
-        <li>Access the eVitals document library for password resets and facility requests</li>
+        <li>Use the <strong>Go to Unit</strong> button after selecting your facility.</li>
+        <li>Your dashboard will update to reflect the selected facility’s queues and permissions.</li>
+      </ul>
+    </div>
+
+    <div class="content-box">
+      <h3>⚠️ Security & Compliance</h3>
+      <ul>
+        <li>eVitals is a monitored government system. Unauthorized access is prohibited under Public Law 99-474.</li>
+        <li>Always log out at the end of your session to prevent access issues.</li>
+        <li>Use updated browsers (Chrome or Edge) for best performance.</li>
+      </ul>
+    </div>
+
+    <div class="content-box">
+      <h3>📎 Troubleshooting Access</h3>
+      <ul>
+        <li>For login issues, visit the <a href="https://www.health.pa.gov/topics/Reporting-Registries/eVitals/Pages/Sign-Up.aspx" target="_blank">eVitals Sign-Up Page</a>.</li>
+        <li>Use the document library to reset passwords, change security questions, or request access to a new facility.</li>
+        <li>Coordinate with your IT department for browser plug-in installation (Dynamsoft).</li>
       </ul>
     </div>
   </section>
